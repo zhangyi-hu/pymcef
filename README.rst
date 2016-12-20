@@ -25,7 +25,7 @@ each of which containing the following:
 
 Advantage
 =========
-This algorithm is very efficient, starting with lagrangian multiplier being infinite and the optional
+This algorithm is very efficient, starting with lagrangian multiplier being infinite and the optimal
 portfolio being 100% in the asset with largest average return, only portfolios on the efficient 
 frontier will be visited. 
 

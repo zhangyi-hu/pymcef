@@ -4,12 +4,14 @@ Python Monte Carlo Efficient Frontier (PyMCEF) package
 Purpose
 =======
 PyMCEF is a python package to generate efficient frontier based on Monte Carlo simulated returns.
+
 Fixed-target expected under performance is used as the risk measure for this stochastic programming problem.
 
 User input
 ==========
 The Monte Carlo simulated returns for all the assets in the investment universe is the input 
 and will be to used to train the efficient frontier.
+
 (Optional) The returns as a validation set to measure the performance of the efficient frontier.
 
 Computation results
@@ -26,6 +28,7 @@ Advantage
 This algorithm is very efficient, starting with lagrangian multiplier being infinite and the optional
 portfolio being 100% in the asset with largest average return, only portfolios on the efficient 
 frontier will be visited. 
+
 This algorithm is based on simulated returns so it is model agnostic. This introduce huge flexibility 
 to the user as no assumption is made on the type of return distribution (e.g. Gaussian)
 

@@ -8,6 +8,8 @@ PyMCEF is a python package to generate efficient frontier based on Monte Carlo s
 Absolute SemiDeviation and Fixed-target expected under performance are used as the risk measure for
 this stochastic programming problem.
 
+`A Quickstart tutorial <http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb>`_
+
 User input
 ==========
 The Monte Carlo simulated returns for all the assets in the investment universe is the input 

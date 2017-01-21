@@ -10,7 +10,7 @@ PyMCEF is based on Post-modern portfolio theory (PMPT).
 Absolute SemiDeviation and Fixed-target expected under performance are used as the risk measure for
 this stochastic programming problem.
 
-`A Quickstart tutorial <http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb>`_
+`A Quickstart tutorial`_
 
 User input
 ==========
@@ -23,6 +23,7 @@ Computation results
 ===================
 The complete efficient frontier stored as a vector of efficient portfolios, 
 each of which containing the following:
+
     1. A python dictionary, storing the asset index and weight in the portfolio
     2. In sample performance (Sharpe ratio etc.)
     3. The lower and upper bound for the lagrangian multiplier producing this particular portfolio
@@ -35,7 +36,7 @@ This package implements the algorithm developed by Prof. Robert J. Vanderbei in 
 `Linear Programming: Foundations and Extensions`_ and paper `Frontiers of Stochastically Nondominated Portfolios`_
 
 This algorithm is very efficient, starting with lagrangian multiplier being infinite and the optimal
-portfolio being 100% in the asset with largest average return, only portfolios on the efficient
+portfolio being 100% in the asset with the largest average return, only portfolios on the efficient
 frontier will be visited. With the product of number of assets and number of simulated return less than
 10 million, the time needed to construct the full efficient frontier is less than 1 minute.
 
@@ -50,3 +51,4 @@ At least two desirable functionalities are not implemented yet:
 
 .. _`Linear Programming: Foundations and Extensions`: http://www.princeton.edu/~rvdb/LPbook/
 .. _`Frontiers of Stochastically Nondominated Portfolios`: http://www.princeton.edu/~rvdb/tex/lpport/lpport8.pdf
+.. _`A Quickstart tutorial`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb

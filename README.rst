@@ -35,7 +35,7 @@ Advantage
 This package implements the algorithm developed by Prof. Robert J. Vanderbei in his Book:
 `Linear Programming: Foundations and Extensions`_ and paper `Frontiers of Stochastically Nondominated Portfolios`_
 
-This algorithm is very efficient, starting with lagrangian multiplier being infinite and the optimal
+This algorithm is very efficient, starting with risk tolerance (lagrangian multiplier) being infinite and the optimal
 portfolio being 100% in the asset with the largest average return, only portfolios on the efficient
 frontier will be visited. With the product of number of assets and number of simulated return less than
 10 million, the time needed to construct the full efficient frontier is less than 1 minute.

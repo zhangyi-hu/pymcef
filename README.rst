@@ -26,7 +26,7 @@ each of which containing the following:
 
     1. A python dictionary, storing the asset index and weight in the portfolio
     2. In sample performance (Sharpe ratio etc.)
-    3. The lower and upper bound for the lagrangian multiplier producing this particular portfolio
+    3. The lower and upper bound for the risk tolerance producing this particular portfolio
     4. Validation performance, if validation Monte Carlo simulated returns are provided.
 
 Advantage

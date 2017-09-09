@@ -11,7 +11,7 @@ Absolute SemiDeviation and Fixed-target expected under performance are used as t
 this stochastic programming problem.
 
 `A Quickstart tutorial`_
-_`Benchmark`_
+`Benchmark`_
 
 User input
 ==========

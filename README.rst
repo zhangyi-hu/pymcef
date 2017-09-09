@@ -11,6 +11,7 @@ Absolute SemiDeviation and Fixed-target expected under performance are used as t
 this stochastic programming problem.
 
 `A Quickstart tutorial`_
+_`Benchmark`_
 
 User input
 ==========
@@ -52,3 +53,4 @@ At least two desirable functionalities are not implemented yet:
 .. _`Linear Programming: Foundations and Extensions`: http://www.princeton.edu/~rvdb/LPbook/
 .. _`Frontiers of Stochastically Nondominated Portfolios`: http://www.princeton.edu/~rvdb/tex/lpport/lpport8.pdf
 .. _`A Quickstart tutorial`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb
+.. _`Benchmark`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Benchmark.ipynb

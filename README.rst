@@ -5,7 +5,7 @@ Purpose
 =======
 PyMCEF is a python package that can generate efficient frontier based on Monte Carlo simulated returns.
 
-PyMCEF is based on Post-modern portfolio theory (PMPT).
+PyMCEF is based on axiomatic Second-order Stochastic dominance portfolio theory.
 
 Absolute SemiDeviation and Fixed-target expected under performance are used as the risk measure for
 this stochastic programming problem.

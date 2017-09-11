@@ -14,6 +14,8 @@ this stochastic programming problem.
 
 `Benchmark`_
 
+`One example when mean variance model fails`_
+
 User input
 ==========
 The Monte Carlo simulated returns for all the assets in the investment universe is the input 
@@ -56,3 +58,4 @@ This introduce huge flexibility to the user as no assumption is made on the type
 .. _`Frontiers of Stochastically Nondominated Portfolios`: http://www.princeton.edu/~rvdb/tex/lpport/lpport8.pdf
 .. _`A Quickstart tutorial`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb
 .. _`Benchmark`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Benchmark.ipynb
+.. _`One example when mean variance model fails`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/examples/When%20mean%20variance%20models%20fail.ipynb

@@ -42,8 +42,8 @@ portfolio being 100% in the asset with the largest average return, only portfoli
 frontier will be visited. With the product of number of assets and number of simulated return less than
 10 million, the time needed to construct the full efficient frontier is less than 1 minute.
 
-Speed comparison to construct efficient frontier with LP solvers
-================================================================
+Speed comparison on efficient frontier construction with other LP solvers
+=========================================================================
 
 .. image:: https://github.com/hzzyyy/pymcef/blob/master/output/performance.png
 

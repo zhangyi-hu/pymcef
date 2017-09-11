@@ -47,14 +47,10 @@ Speed comparison on efficient frontier construction with other LP solvers
 
 .. image:: https://github.com/hzzyyy/pymcef/blob/master/output/performance.png
 
-This algorithm is based on simulated returns so it is model agnostic. This introduce huge flexibility
-to the user as no assumption is made on the type of return distribution (e.g. Gaussian).
+This algorithm is based on simulated returns so it is model agnostic
+====================================================================
 
-Works remain to be done
-=======================
-At least two desirable functionalities are not implemented yet:
-    1. Support for short position
-    2. Support user specified upper and lower bound of the weights of each asset.
+This introduce huge flexibility to the user as no assumption is made on the type of return distribution (e.g. Gaussian).
 
 .. _`Linear Programming: Foundations and Extensions`: http://www.princeton.edu/~rvdb/LPbook/
 .. _`Frontiers of Stochastically Nondominated Portfolios`: http://www.princeton.edu/~rvdb/tex/lpport/lpport8.pdf

@@ -43,7 +43,7 @@ frontier will be visited. With the product of number of assets and number of sim
 10 million, the time needed to construct the full efficient frontier is less than 1 minute.
 
 
-.. figure:: https://github.com/hzzyyy/pymcef/blob/master/output/performance.png
+.. image:: https://github.com/hzzyyy/pymcef/blob/master/output/performance.png
    :align: middle
    
 This algorithm is based on simulated returns so it is model agnostic. This introduce huge flexibility

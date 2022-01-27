@@ -48,7 +48,7 @@ frontier will be visited. With the product of number of assets and number of sim
 Speed comparison on efficient frontier construction with other LP solvers
 =========================================================================
 
-.. image:: https://github.com/hzzyyy/pymcef/blob/master/output/performance.png
+.. image:: https://github.com/zhangyi-hu/pymcef/blob/master/output/performance.png
 
 This algorithm is based on simulated returns so it is model agnostic
 ====================================================================
@@ -57,6 +57,6 @@ This introduce huge flexibility to the user as no assumption is made on the type
 
 .. _`Linear Programming: Foundations and Extensions`: http://www.princeton.edu/~rvdb/LPbook/
 .. _`Frontiers of Stochastically Nondominated Portfolios`: http://www.princeton.edu/~rvdb/tex/lpport/lpport8.pdf
-.. _`A Quickstart tutorial`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Quickstart%20tutorial.ipynb
-.. _`Benchmark`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/Benchmark.ipynb
-.. _`One example when mean variance model fails`: http://nbviewer.jupyter.org/github/hzzyyy/pymcef/blob/master/examples/1.%20When%20mean%20variance%20models%20fail.ipynb
+.. _`A Quickstart tutorial`: http://nbviewer.jupyter.org/github/zhangyi-hu/pymcef/blob/master/Quickstart%20tutorial.ipynb
+.. _`Benchmark`: http://nbviewer.jupyter.org/github/zhangyi-hu/pymcef/blob/master/Benchmark.ipynb
+.. _`One example when mean variance model fails`: http://nbviewer.jupyter.org/github/zhangyi-hu/pymcef/blob/master/examples/1.%20When%20mean%20variance%20models%20fail.ipynb
